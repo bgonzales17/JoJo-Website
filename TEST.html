@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JOJO's Bizzare Adventure site</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/f9ca18084d.js" crossorigin="anonymous"></script>
+
+
+  <!-- Bootstrap 5.2.0 CSS CDN  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- Bootstrap 5.2.0 Javascript CDN  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="CSS/styles.css">
+
+  <!-- Fevicon -->
+  <link rel="fevicon" href="images/JoJo-fevicon.png">
+
+</head>
+
+<body>
+
+
+ <!-- JOJO OST -->
+<section class="JOJO OST" >
+
+<div class="card text-center Song-card">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="true" href="#">Opening</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">JOJO's Bizzare Adventure Opening 1</h5>
+    <p class="card-text">JOJO's Bizzare Adventure Opening 1 Sono Chi no Sadame. It is the Opening Song for JOJO part 1 Phantom Blood.</p>
+    <img id="Play_icon" style="width: 50px;" src="/images/Song Control/circle-play-solid.svg" alt="Play Button">    
+    <audio id="Part1_op">
+    <source  src="https://drive.google.com/file/d/1G61TDv46861YO7NTti8LZzYhJAaYgU3g/preview" onclick="chnageicon()" type="audio/mp3">
+    </audio>
+
+    <script>
+      var mySong = document.getElementById("Part1_op");
+      var icon = document.getElementsById("Play_icon");
+
+      let chnageicon = function() {
+        mySong.play();
+        icon.src = "images/Song Control/circle-pause-solid.svg";
+      }
+
+    </script>
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
+

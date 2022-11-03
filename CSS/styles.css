@@ -1,0 +1,151 @@
+/* ======================= NAVBAR ======================= */
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+
+  .navbar-collapse {
+    padding-left: 300px;
+  }
+
+  .nav-page-sel:hover {
+    font-weight:500;
+  }
+ 
+  /*======================= FRONT_PAGE =======================*/
+  .JOJO-Carousel-img {
+    height: 750px;
+  }
+  
+  .JOJO-Carousel-name {
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+
+  }
+
+  .JOJO-Carousel-info {
+    color: white;
+    text-align: center;
+
+  }
+
+  .JOJO-Carousel-descri {
+    color: white;
+    text-align: center;
+    margin-top: 30px ;
+  }
+
+  #Front-page img:hover {
+    filter: brightness(.5);
+  }
+
+  .jojo-Part-selc {
+    height: 600px;
+    margin-top: 50px;
+  }
+
+  .main-page-part-div {
+    height: 660px;
+    width: 230px;
+  }
+
+  .pillarmen {
+    display: inline-block;
+    position: absolute;
+  }
+
+  /* ===================JOJOs=================== */
+
+  .Big_Heading {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* ====================Ability cards================= */
+  .card-group {
+    padding: 40px;
+    text-align: center;
+  }
+  .card {
+    border: none;
+    padding: 10px;
+  }
+
+  .ability-card {
+    margin: 20px;
+    border: none;
+  }
+
+  .btn-dark {
+    border: none;
+  }
+
+  /* =========================Song-card============================== */
+
+  .Song-card{
+    margin: 20px 200px 20px 200px;
+  }
+
+
+/* ===============HTML Tag selector=================== */
+  hr{
+    background-color: black;
+    border-color: white;
+    border-top-style: dotted;
+    border-width: 4px;
+    width: 20%;
+    margin: 0 auto;  
+  }
+
+  img {
+    transition: all 200ms;
+  }
+
+  img:hover {
+    transform: scale(1.04);
+    filter: brightness(1.2);
+  }
+
+  body {
+    background-color: black;
+  }
